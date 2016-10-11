@@ -1,0 +1,40 @@
+/******************/
+$("#vip").hover(function(){
+	$(this).addClass("hover");
+	$(this).children("a").addClass('hover');
+	$("#nav").addClass('add');
+	$("#vip_dorpdown").show();
+},function(){
+	$(this).removeClass("hover");
+	$("#vip_dorpdown").hide();
+	$("#nav").removeClass('add');
+	$(this).children("a").removeClass('hover');
+	});
+$("#app").hover(function(){
+	$(this).addClass("hover");
+	$(this).children("a").addClass('hover');
+	$("#app_dorpdown").show();
+},function(){
+	$(this).removeClass("hover");$("#app_dorpdown").hide();
+	$(this).children("a").removeClass('hover');
+	});
+$("#service").hover(function(){
+	$(this).addClass("hover");
+	$(this).children("a").addClass('hover');
+	$("#service_dorpdown").show();
+},function(){
+	$(this).removeClass("hover");
+	$("#service_dorpdown").hide();
+	$(this).children("a").removeClass('hover');
+	});
+$("#floor_header>span").hover(function(){
+	$(this).addClass('hover');
+},function(){$(this).removeClass('hover');})
+$("#nav_ad_left>ul>li").hover(function(){
+	$(this).addClass('hover');
+	$(this).find('div').css('display','block');
+},function(){
+	$(this).removeClass('hover');
+	$(this).find('div').css('display','none');
+	}
+)

@@ -1,0 +1,10 @@
+$("#toolbar>.toolbar_content>.toolbar_tab>i").hover(
+function(){
+	$(this).parent().addClass('hover');
+	$(this).addClass('hover');
+},
+function(){
+	$(this).parent().removeClass('hover');
+	$(this).removeClass('hover');
+}
+)

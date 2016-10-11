@@ -1,0 +1,28 @@
+body{
+	background-color:#f2f2f2;
+	border:1px solid #ddd;
+	color:#999;
+}
+table{
+	height:500px;
+	background-color:#fff;
+	margin: 0 auto;
+}
+#p1{
+	width:200px;
+	height:500px;	
+	background-image:url("../img/phone-bg.jpg");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#p2{
+	width:200px;
+	height:50px;
+	background-color:#E43E42;
+	border:1px solid #E4454C;
+	border-radius:4px;
+	color:#999;
+	font-size:15pt;
+	cursor:pointer;
+	
+}

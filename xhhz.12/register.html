@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	  <title>  </title>
+	  <meta charset="utf-8" />
+	  <link rel="stylesheet" type="text/css" href="css/register.css">
+ </head>
+ <body>
+	<form >
+		<table>
+			<tr>
+				<td>用户名：</td>
+				<td><input type="text" name="username " minlength="4" maxlength="20"></input></td>
+				<td>4-20位字符，支持汉字、字母和数字组合</td>
+				<td rowspan="7" id="p1"></td>
+			</tr>
+			<tr>
+				<td>请设置密码：</td>
+				<td><input type="password" name="psaaword" minlength="6" maxlength="20"></input></td>
+				<td>6-20位字符，支持汉字、字母和数字组合</td>
+			</tr>
+			<tr>
+				<td>请确认密码：</td>
+				<td><input type="password" name="psaaword" minlength="6" maxlength="20"></input></td>
+				<td>请再次输入密码</td>
+			</tr>
+			<tr>
+				<td>验证手机:</td>
+				<td><input type="text" name="yanzheng"></input></td>
+				<td>完成验证后，可以使用手机找回密码</td>
+			</tr>
+			<tr>
+				<td>短信验证码：</td>
+				<td><input type="text" name="zaiyanzheng"></input></td>
+				<td>请再次输入密码</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="radio"id="a"><label for="a">我已阅读并同意</label><a href="#">《用户注册协议》</a></input></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td ></td>
+				<td><button id="p2">立即注册</button></td>
+				<td></td>
+			</tr>
+		</table>
+	</form>
+	<script src="js/jquery-1.11.3.js"></script>
+ </body>
+</html>
